@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Guy.Com</title>
+</head>
+<style>
+    body {
+      margin: 0;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 15%;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    
+    li a {
+      display: block;
+      color: #000;
+      padding: 16px 16px;
+      text-decoration: none;
+    }
+    
+    li a.active {
+      background-image: linear-gradient(to right, #9e7ece , #e4cdef);
+      color: white;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    .p1 {
+        font-family: fantasy;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .y {
+        font-family: fantasy;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .p2 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    animation: typing 5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+    margin-top: 50px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
+}
+
+
+    div.a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            /* height: 100%; */
+    }
+
+    .a img {
+        max-width: 100%; /* ลดขนาดภาพให้ไม่เกินความกว้างของ div */
+        height: 600px; /* รักษาสัดส่วนของรูปภาพ */
+        border-radius: 100px;
+        border: 2.5px solid #000; /* 5px เป็นความหนาขอบและ #000 เป็นสีดำ */
+        margin-bottom: 20px;
+    }
+
+    </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="/valantine.html">Home1</a></li>
+            <li><a class="active" href="Home_Final.html">Home</a></li>
+            <li><a class="b" href="About.html">About</a></li>
+            <li><a class="c" href="Education.html">Education</a></li>
+            <li><a class="d" href="Certificate.html">Certificate</a></li>
+            <li><a a class="f" href="Activity.html">Activity</a></li>
+        </ul>
+    
+    <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+        <p class="p1">History of the creator</p>
+
+        <div class="a">
+            <img src="img/G3.jpg"  >
+        </div>
+
+        <p class="p2">Hi Guys , I am Wanrada Duangduen you can call me Guy</p>
+
+        <!-- <img src="img/2.3.jpg" width="100px" style="float: left;"> -->
+
+        <p class="y"><a href="https://www.facebook.com/wanrada.dungduen.7" target="_blank" > Facebook</a></p>
+        <p class="y"><a href="https://www.instagram.com/i.guy_yug.x/" target="_blank"> Instargram</a></p>
+    </div>
+    
+    </body>
+</html>

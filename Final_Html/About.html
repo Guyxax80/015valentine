@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Guy.Com</title>
+</head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    
+    li a {
+      display: block;
+      color: #000;
+      padding: 16px 16px;
+      text-decoration: none;
+    }
+    
+    li a.b {
+      background-image: linear-gradient(to right, #9e7ece , #e4cdef);
+      color: white;
+    }
+    
+    li a:hover:not(.b) {
+      background-color: #555;
+      color: white;
+    }
+
+        .p1 {
+            font-family: fantasy;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .p2 {
+            font-family: fantasy;
+            text-align: center;
+            font-size: 20px;
+            white-space: normal;
+            margin-top: 20px;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+
+        .p3 {
+            font-family: fantasy;
+            text-align: center;
+            font-size: 20px;
+            white-space: normal;
+            /* margin-top: 30px; */
+            padding: 0 20px;
+            margin-bottom: 30px;
+        }
+
+        div.a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .a img {
+        max-width: 100%; /* ลดขนาดภาพให้ไม่เกินความกว้างของ div */
+        height: 600px; /* รักษาสัดส่วนของรูปภาพ */
+        border-radius: 100px;
+        border: 2.5px solid #000; /* 5px เป็นความหนาขอบและ #000 เป็นสีดำ */
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="/valantine.html">Home1</a></li>
+        <li><a class="active" href="Home_Final.html">Home</a></li>
+        <li><a class="b" href="About.html">About</a></li>
+        <li><a class="c" href="Education.html">Education</a></li>
+        <li><a class="d" href="Certificate.html">Certificate</a></li>
+        <li><a a class="f" href="Activity.html">Activity</a></li>
+    </ul>
+
+    <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+        <p class="p1">About Me</p>
+
+        <div class="a">
+            <img src="img/11.11.jpg">
+        </div>
+
+        <p class="p2">
+            Hello, I would like to introduce a brief story about myself. 
+        </p>
+        <p class="p2">
+            You can call me Guy. Born on May 6, 2004. I'm currently 19 years old.
+        </p>
+        <p class="p2">
+            Nationality : Thai / Ethnicity: Thai / Buddhism
+        </p>
+        <p class="p2">
+            Address : 65/1 Moo 8,  In Buri District,  Sing Buri Province 16110
+        </p>
+        <p class="p3">
+            Phone number: 065 - 7080683
+        </p>
+
+    </div>
+    
+</body>
+</html>
